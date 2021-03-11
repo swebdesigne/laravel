@@ -7,8 +7,15 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
-    {{ route('post', ['id' => 3, 'slug' => 'test2']) }}
-    <br>
-    {{ route('admin.post', ['id' => 3]) }}
+<body>
+<form action="{{ route('contact') }}" method="post">
+    {{-- csrf_field() --}}
+    {{-- method_field('PUT') --}}
+    @method('PUT')
+    @csrf
+    <input type="text" name="name">
+    <input type="e-mail" name="e-mail">
+    <button type="submit">Send</button>
+</form>
 </body>
 </html>
