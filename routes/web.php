@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\PageController;
 use App\Http\Controllers\Test\TestController;
+use App\Http\Controllers\PostController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -19,6 +20,11 @@ Route::get('/', [ HomeController::class, 'index' ]);
 Route::get('/test', [ HomeController::class, 'test' ]);
 Route::get('/page/{slug}', [ PageController::class, 'show' ]);
 Route::get("/test2", [ TestController::class, 'index']);
+Route::resources([
+    'posts' => PostController::class,
+    'posts.create' => PostController::class,
+]);
+
 
 Route::fallback(function () {
 //    return redirect()->route('home');
