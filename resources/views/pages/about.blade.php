@@ -8,6 +8,6 @@
     <title>Document</title>
 </head>
 <body>
-    hello {{ $name }} ! How old are you, {{ $res }} ?
+   <h1>About Page</h1>
 </body>
 </html>

@@ -10,12 +10,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f481f3de-848e-47f8-9978-6011c1ef2035" name="Default Changelist" comment="load Laravel">
-      <change afterPath="$PROJECT_DIR$/resources/views/about.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/contact.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/test.blade.php" afterDir="false" />
+    <list default="true" id="f481f3de-848e-47f8-9978-6011c1ef2035" name="Default Changelist" comment="Routes">
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/about.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/contact.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/show.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
@@ -181,7 +181,9 @@
       <workItem from="1615117723129" duration="52000" />
       <workItem from="1615117842341" duration="288000" />
       <workItem from="1615306030237" duration="4279000" />
-      <workItem from="1615482812764" duration="4100000" />
+      <workItem from="1615482812764" duration="7047000" />
+      <workItem from="1615571367113" duration="55000" />
+      <workItem from="1615646152356" duration="1991000" />
     </task>
     <task id="LOCAL-00001" summary="load Laravel">
       <created>1615045350163</created>
@@ -197,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615045683354</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Routes">
+      <created>1615487878299</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1615487878299</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,13 +226,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="load Laravel" />
-    <option name="LAST_COMMIT_MESSAGE" value="load Laravel" />
+    <MESSAGE value="Routes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Routes" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1300" y="424" key="#Custom_Plugin_Repositories" timestamp="1615117503149">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="1300" y="424" key="#Custom_Plugin_Repositories/0.0.1920.1050@0.0.1920.1050" timestamp="1615117503149" />
+    <state x="1175" y="330" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1615489566070">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1175" y="330" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1615489566070" />
     <state x="1220" y="279" key="FileChooserDialogImpl" timestamp="1615118129964">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -244,17 +258,25 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1877" height="285" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1615054184388" />
-    <state x="1274" y="451" key="NewPhpFileDialog" timestamp="1615310060077">
+    <state x="1189" y="251" key="NewPhpClassDialog" timestamp="1615489297586">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="1274" y="451" key="NewPhpFileDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1615310060077" />
+    <state x="1189" y="251" key="NewPhpClassDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1615489297585" />
+    <state x="1274" y="451" key="NewPhpFileDialog" timestamp="1615490544949">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1274" y="451" key="NewPhpFileDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1615490544949" />
     <state x="922" y="173" key="SettingsEditor" timestamp="1615117504945">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="922" y="173" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1615117504945" />
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1615045685996">
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1615487881226">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1615045685996" />
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1615487881226" />
+    <state x="1177" y="336" width="526" height="546" key="com.jetbrains.php.test.PhpNewTestDialog" timestamp="1615489863190">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1177" y="336" width="526" height="546" key="com.jetbrains.php.test.PhpNewTestDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1615489863190" />
   </component>
 </project>
