@@ -12,7 +12,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f481f3de-848e-47f8-9978-6011c1ef2035" name="Default Changelist" comment="CRUD">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,7 +179,7 @@
       <workItem from="1615306030237" duration="4279000" />
       <workItem from="1615482812764" duration="7047000" />
       <workItem from="1615571367113" duration="55000" />
-      <workItem from="1615646152356" duration="5203000" />
+      <workItem from="1615646152356" duration="6058000" />
     </task>
     <task id="LOCAL-00001" summary="load Laravel">
       <created>1615045350163</created>
@@ -216,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615653372224</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="CRUD">
+      <created>1615654317148</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1615654317148</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -282,10 +289,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="922" y="173" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1615117504945" />
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1615653374574">
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1615654319006">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1615653374574" />
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1615654319006" />
     <state x="1177" y="336" width="526" height="546" key="com.jetbrains.php.test.PhpNewTestDialog" timestamp="1615489863190">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
