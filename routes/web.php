@@ -20,10 +20,15 @@ Route::get('/', [ HomeController::class, 'index' ]);
 Route::get('/test', [ HomeController::class, 'test' ]);
 Route::get('/page/{slug}', [ PageController::class, 'show' ]);
 Route::get("/test2", [ TestController::class, 'index']);
-Route::resources([
-    'posts' => PostController::class,
-    'posts.create' => PostController::class,
-]);
+Route::resources(
+    [
+        'posts' => PostController::class,
+        'posts.create' => PostController::class
+    ],
+    [
+        'parameters' => ['posts' => 'slug']
+    ]
+);
 
 
 Route::fallback(function () {

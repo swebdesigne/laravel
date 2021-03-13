@@ -11,27 +11,27 @@
     <h1>List posts</h1>
     <ul>
         <li>
-            <a href="{{ route('posts.show', ['post' => 1]) }}">Post 1</a>
-            <a href="{{ route('posts.edit', ['post' => 1]) }}">Post 1</a>
-            <form action="{{ route('posts.destroy', ['post' => 1])  }}" method="post">
+            <a href="{{ route('posts.show', ['slug' => 1]) }}">Post 1</a>
+            <a href="{{ route('posts.edit', ['slug' => 1]) }}">Post 1</a>
+            <form action="{{ route('posts.destroy', ['slug' => 1])  }}" method="post">
                 @csrf
                 @method('DELETE')
                 <button type="submit">Delete</button>
             </form>
         </li>
         <li>
-            <a href="{{ route('posts.show', ['post' => 2]) }}">Post 2</a>
-            <a href="{{ route('posts.edit', ['post' => 2]) }}">Post 2</a>
-            <form action="{{ route('posts.destroy', ['post' => 2])  }}" method="post">
+            <a href="{{ route('posts.show', ['slug' => 2]) }}">Post 2</a>
+            <a href="{{ route('posts.edit', ['slug' => 2]) }}">Post 2</a>
+            <form action="{{ route('posts.destroy', ['slug' => 2])  }}" method="post">
                 @csrf
                 @method('DELETE')
                 <button type="submit">Delete</button>
             </form>
         </li>
         <li>
-            <a href="{{ route('posts.show', ['post' => 3]) }}">Post 3</a>
-            <a href="{{ route('posts.edit', ['post' => 3]) }}">Post 3</a>]
-            <form action="{{ route('posts.destroy', ['post' => 3]) }}" method="post">
+            <a href="{{ route('posts.show', ['slug' => 3]) }}">Post 3</a>
+            <a href="{{ route('posts.edit', ['slug' => 3]) }}">Post 3</a>]
+            <form action="{{ route('posts.destroy', ['slug' => 3]) }}" method="post">
                 @csrf
                 @method('DELETE')
                 <button type="submit">Delete</button>
