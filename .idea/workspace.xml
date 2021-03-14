@@ -10,9 +10,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f481f3de-848e-47f8-9978-6011c1ef2035" name="Default Changelist" comment="CRUD">
+    <list default="true" id="f481f3de-848e-47f8-9978-6011c1ef2035" name="Default Changelist" comment="Configuration">
+      <change beforePath="$PROJECT_DIR$/.idea/laravel.loc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/laravel.loc.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,6 +137,9 @@
       <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
       <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
       <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
     </include_path>
   </component>
   <component name="ProjectId" id="1pODR9sfqukmAvBi8umrxeyrNR1" />
@@ -142,6 +148,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -179,7 +186,8 @@
       <workItem from="1615306030237" duration="4279000" />
       <workItem from="1615482812764" duration="7047000" />
       <workItem from="1615571367113" duration="55000" />
-      <workItem from="1615646152356" duration="6058000" />
+      <workItem from="1615646152356" duration="7416000" />
+      <workItem from="1615732890815" duration="3022000" />
     </task>
     <task id="LOCAL-00001" summary="load Laravel">
       <created>1615045350163</created>
@@ -223,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615654317148</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Configuration">
+      <created>1615655258107</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1615655258107</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,13 +261,18 @@
     <MESSAGE value="Routes" />
     <MESSAGE value="Controllers" />
     <MESSAGE value="CRUD" />
-    <option name="LAST_COMMIT_MESSAGE" value="CRUD" />
+    <MESSAGE value="Configuration" />
+    <option name="LAST_COMMIT_MESSAGE" value="Configuration" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1300" y="424" key="#Custom_Plugin_Repositories" timestamp="1615117503149">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="1300" y="424" key="#Custom_Plugin_Repositories/0.0.1920.1050@0.0.1920.1050" timestamp="1615117503149" />
+    <state x="1032" y="183" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1615733201515">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1032" y="183" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1615733201515" />
     <state x="1175" y="330" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1615489566070">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -277,6 +297,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1877" height="285" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1615054184388" />
+    <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1615733207149">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1920.1050@0.0.1920.1050" timestamp="1615733207149" />
     <state x="1189" y="251" key="NewPhpClassDialog" timestamp="1615489297586">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -289,10 +313,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="922" y="173" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1615117504945" />
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1615654319006">
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1615655260512">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1615654319006" />
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1615655260512" />
     <state x="1177" y="336" width="526" height="546" key="com.jetbrains.php.test.PhpNewTestDialog" timestamp="1615489863190">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
