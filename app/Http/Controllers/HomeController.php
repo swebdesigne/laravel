@@ -12,25 +12,31 @@ class HomeController extends Controller
 {
     public function index()
     {
-//        DB::insert("INSERT INTO posts (title, content, created_at, updated_at)
-//            VALUES (?, ?, ?, ?)", ['article 4', 'lorem ipsum 4', NOW(), NOW()]);
-dump(config('app.timezone'));
-        DB::update("UPDATE posts SET title = :title, created_at = :created_at, updated_at = :updated_at WHERE title = ''", [':title' => "article 0", ':created_at' => NOW(), 'updated_at' => NOW()]);
-        $posts = DB::select("SELECT * FROM posts WHERE id > :id", ['id' => 2]);
-//        DB::delete("DELETE FROM posts WHERE id = :id", ['id' => 6]);
-        DB::beginTransaction();
-        try {
-            DB::update("UPDATE posts SET created_at = ? WHERE created_at IS NULL ", [NOW()]);
-            DB::update("UPDATE posts SET updated_at = ? WHERE updated_at IS NULL ", [NOW()]);
-        } catch (\Exception $e) {
-           DB::rollBack();
-           echo $e->getMessage();
-        }
-        dd($posts);
-        return $posts;
-//        dump(env('APP_KEY1'));
-//        dump(config('database.connections.mysql.database'));
-
+//        $data = DB::table('country')->limit(5)->orderBy('Code', 'desc')->get();
+//        $data = DB::table('country')->select('Code', 'Name')->limit(5)->orderBy('Code', 'desc')->get();
+//        $data = DB::table('country')->orderBy('Code', 'ASC')->select('Code', 'Name')->first();
+//        $data = DB::table('country')->orderBy('Code', 'ASC')->select('Code', 'Name')->first();
+//        $data = DB::table('city')->select('ID', 'Name')->find(2);
+//        $data = DB::table('city')->select('ID', 'Name')->where("ID", "=", "2")->get();
+//        $data = DB::table('city')->select('ID', 'Name')->where([
+//            ["id", ">", 1],
+//            ["id", "<", 5],
+//        ])->get();
+//        $data = DB::table('city')->where([
+//            ["id", ">", 1],
+//            ["id", "<", 5],
+//        ])->get();
+//        $data = DB::table('city')->where([["id", ">", 1]])->value("Name");
+//        $data = DB::table('Country')->limit(10)->pluck('Name', "Code");
+//        $data = DB::table('Country')->count();
+//        $data = DB::table('Country')->max('Population');
+//        $data = DB::table('Country')->min('Population');
+//        $data = DB::table('Country')->sum('Population');
+//        $data = DB::table('Country')->avg('Population');
+//        $data = DB::table('city')->select('CountryCode')->distinct()->get();
+        $data = DB::table('city')->select('city.ID', 'city.Name as city_name', 'country.Code', 'country.Name as country_name')->limit(10)
+        ->join('country', 'city.CountryCode', '=', 'country.Code')->orderBy('city.ID')->get();
+        dd($data);
         return view('welcome', ['res' => 5, 'name' => 'john']);
     }
 
