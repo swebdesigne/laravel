@@ -11,9 +11,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f481f3de-848e-47f8-9978-6011c1ef2035" name="Default Changelist" comment="SQL request, transactions">
+      <change afterPath="$PROJECT_DIR$/app/Models/Post.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_03_14_145139_create_posts_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_03_19_204645_create_posts_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_03_14_151421_change_posts_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_03_14_152748_change_timestamp_posts_table.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,11 +144,15 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1pODR9sfqukmAvBi8umrxeyrNR1" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -189,7 +196,7 @@
       <workItem from="1615822414694" duration="605000" />
       <workItem from="1616004707784" duration="4786000" />
       <workItem from="1616086400839" duration="41000" />
-      <workItem from="1616173982856" duration="1306000" />
+      <workItem from="1616173982856" duration="2824000" />
     </task>
     <task id="LOCAL-00001" summary="load Laravel">
       <created>1615045350163</created>
@@ -268,7 +275,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616008497664</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="SQL request, transactions">
+      <created>1616175572351</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1616175572351</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,6 +301,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="load Laravel" />
     <MESSAGE value="Routes" />
     <MESSAGE value="Controllers" />
@@ -346,10 +361,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="922" y="173" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1615117504945" />
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1616008499767">
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1616175575110">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1616008499767" />
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1616175575110" />
     <state x="1177" y="336" width="526" height="546" key="com.jetbrains.php.test.PhpNewTestDialog" timestamp="1615489863190">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
